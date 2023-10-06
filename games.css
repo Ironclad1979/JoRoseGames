@@ -1,0 +1,150 @@
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Orbitron', sans-serif;
+
+}
+
+section {
+    height: 100vh;
+    width: 100vw;
+    background-color: #8338ec;
+    color: white;
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        align-content: space-around;
+}
+    
+nav {
+    border-bottom: solid 4px;
+    border-color: #ffbe0b;
+    border-radius: 5px;
+    background-color: #ff006e;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 120px;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+}
+
+h1 {
+    font-style: bold;
+    font-size: 50px;
+    text-align: center;
+}
+h2 {
+    font-size: 40px;
+    text-align: center;
+    font-style: bold;
+}
+
+h3{
+    font-size: 30px;
+    font-style: bold;
+    text-align: center;
+}
+
+/*
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+
+.float-effect:hover {
+    animation: float 1.5s ease-in-out infinite;
+}
+*/
+   
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+}
+    .fit-picture {
+        height: 300px;
+        width: 300px;
+        border: solid 2px;
+        border-radius: 5px;
+        
+    }
+
+    @media (min-width: 600px) {
+        .fit-picture {
+            height: 500px;
+            width: 500px;
+        }
+    }
+
+    li{
+            font-size: 25px;
+           
+           
+    }
+
+
+    
+    li {
+            transition: all 0.3s ease-in-out;
+            display: inline-block;
+            padding: 10px 20px;
+            color: white;
+            cursor: pointer;
+    }
+    
+    li:hover {
+            
+            transform: scale(1.1);
+    }
+
+    .logo{
+            height: 50px;
+            width: 50px;
+            
+            
+    }
+
+    a{
+            text-decoration: none;
+            color: white;
+            font-size: 15px;
+            
+    }
+            
+            a {
+                    position: relative;
+                    padding-bottom: 5px;
+                    cursor: pointer;
+            }
+            
+            a::after {
+                    content: '';
+                    position: absolute;
+                    width: 0;
+                    height: 4px;
+                    bottom: 0;
+                    left: 0;
+                    background-color: #ffbe0b;
+                    transition: width 0.3s;
+            }
+        
+        a:hover::after {
+            width: 100%;
+        }
+        
+   
+   
