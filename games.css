@@ -54,19 +54,7 @@ h3{
     font-style: bold;
     text-align: center;
 }
-
-/*
-@keyframes float {
-    0% { transform: translateY(0px); }
-    50% { transform: translateY(-10px); }
-    100% { transform: translateY(0px); }
-}
-
-.float-effect:hover {
-    animation: float 1.5s ease-in-out infinite;
-}
-*/
-   
+ 
 ul{
     display: flex;
     flex-direction: row;
